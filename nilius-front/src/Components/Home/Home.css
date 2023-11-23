@@ -1,0 +1,174 @@
+.Home{
+    width: 100%;
+    margin: auto;
+}
+.bannerContainer{
+    padding-top: 100px;
+    height: 300px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1.2s ease;
+}
+.hidden{
+    opacity: 0; /* Puedes ocultar todas las imágenes inicialmente */
+}
+
+.rowContainer {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15vh; /* Agrega un margen inferior para separar los bloques de .row */
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap; /* Permite el ajuste de contenido a través de filas */
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn-container{
+    display: flex; /* Usar flexbox para centrar horizontalmente los botones */
+    gap: 10px; /* Espacio entre los botones */
+    margin-bottom: -80px;
+}
+
+.btn{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    z-index: 90;
+    outline: none;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    opacity: 50%;
+}
+.btn:focus {
+    background-color: #f1f1f1;
+}
+
+
+.header-home{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.product-container{
+    width: 10vw; /* Ancho del contenedor en 10vw */
+  height: auto;
+  padding-top: 90px;
+    
+}
+
+.product {
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 50%;
+    transition: .2s;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    
+  }
+.selected{
+    border: #27252e solid;
+}
+
+.product:hover {
+
+    backdrop-filter: blur(10px);
+    background: linear-gradient(100deg, rgba(0,0,0,.2), rgba(0,0,0,.2));
+    box-shadow: 0 10px 26px 0 rgba(0,0,0,.50);
+    border-radius: 50%;
+    transform: scale(1.2);
+  }
+
+
+
+
+
+
+
+.bot-container{
+    width: 100%;
+    height: 300px;
+    background-color: #27252e;
+    padding-top: 80px;
+}
+
+.description-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.descritpion{
+
+    align-items: center;
+}
+
+.ul-description{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.li-description{
+    color:#f1f1f1;
+}
+
+
+
+@media only screen  and (max-width: 1125px) {
+    
+    .header-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 3vh;
+        
+    
+    }
+    .product-container{
+      width: 20vw; /* Ancho del contenedor en 10vw */
+      height: auto;
+      padding-top: 90px;
+        
+    }
+    .product {
+        height: auto; /* Mantiene la relación de aspecto */
+        border-radius: 50%;
+        transition: .2s;
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        
+      }
+
+  }
+  

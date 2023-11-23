@@ -1,0 +1,82 @@
+.error-message{
+    color: #ff3030;
+}
+
+.approved-message{
+    color: #30e130;
+}
+
+.logVerification{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: #5f5f5f;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #efefef;
+    cursor: pointer;
+    width: 100%;
+}
+
+.logVerification:hover{
+    background-color: #d4d4d4;
+}
+.backtohome{
+    position: relative;
+    margin-left: 0;
+    margin-right: 95%;
+    margin-bottom: -25px;
+    border-radius: 50%;
+
+    color: #fafafa;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media only screen  and (max-width: 812px) {
+   
+
+    .si-signUp{
+      height: auto;
+
+    }
+    .backtohome{
+        font-size: 30px;
+    }
+
+
+    .form-container {
+        width: 65vw;
+        font-size: 30px;
+      }
+      
+      .logSubmit {
+        font-size: 20px;
+      }
+  
+      .LogInput {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px 0;
+        width: 100%;
+        font-size: 20px;
+      }
+      .lo-login{
+        width: 40vw;
+        height: auto;
+      }
+
+      .logVerification{
+        font-size: 20px;
+      }
+ }

@@ -1,0 +1,47 @@
+.item-product-container{
+padding-top: 90px;
+width: 100%;
+}
+
+.product-list-container{
+padding-top: 80px;
+width: 80%;
+display: flex;
+cursor: auto;
+
+}
+
+.menu-lsit{
+    padding-left: 20%;
+    padding-top: 10px;
+}
+.title-list{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.product-list{
+    background-color: #ffffff;
+    border-radius: 18px;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.row-list {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 40px; /* Agrega un margen inferior para separar los elementos .row */
+}
+
+.sub-list{
+    color: #454545;
+    font-size: 18px;
+    transition: .2s;
+}
+.sub-list:hover{
+    color: #000;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.vertical-center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.payed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 15px;
+  gap: 10px;
+  background-color: #17151e;
+  border-radius: 27px;
+  width: fit-content;
+}
+
+.Nilius-img-container {
+  margin: 20px;
+}
+
+
+.payed-content {
+  text-align: center;
+  color: #fff; /* Color del texto blanco */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+}
+
+.token-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.token-label {
+  font-size: 1.2em; /* Tamaño de fuente del label */
+  margin-right: 10px;
+}
+
+.token {
+  background-color: #333; /* Fondo gris oscuro */
+  color: #f44; /* Color del texto blanco */
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2em; /* Tamaño de fuente del token */
+}
+
+.backhome{
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 95%;
+  margin-bottom: -25px;
+  border-radius: 50%;
+
+  color: #fafafa;
+  font-size: 15px;
+  cursor: pointer;
+}

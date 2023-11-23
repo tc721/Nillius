@@ -1,0 +1,116 @@
+/* Estilos generales */
+.Logcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaeaea;
+  }
+  
+  .form-container {
+    border: 1px solid #ccc;
+    background-color: #37353e;
+    padding: 50px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  /* Estilos del encabezado */
+  /*h2 {
+    font-family: 'Billabong', cursive;
+    font-size: 36px;
+    margin: 10px 0;
+  }*/
+  
+  /* Estilos del formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Estilos de los campos de entrada */
+  .LogInput {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  /* Estilos del botón de inicio de sesión */
+  .logSubmit {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: #fff;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #17151e;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+.logSubmit:hover{
+  background-color: #27252e;
+}
+
+
+  .LinkBlanco{
+    color: #f3f3f3;
+    margin-top: -15px;
+  }
+
+  .LinkBlanco a {
+    color: #f44; /* Reemplaza 'yourColor' con el color que desees */
+    text-decoration: none; /* Para eliminar el subrayado predeterminado */
+  }
+  
+
+
+  @media only screen  and (max-width: 812px) {
+    .Logcontainer {
+      height: 60vh;
+      width: 100vw;
+      margin-top: 14vh;
+    }
+   
+    .form-container {
+      width: 100%;
+      
+
+      font-size: 15px;
+    }
+    
+    .logSubmit {
+      font-size: 15px;
+    }
+
+    .LogInput {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 20px 0;
+      width: 100%;
+      font-size: 20px;
+    }
+    .lo-login{
+      width: 80%;
+      height: auto;
+    }
+    .LinkBlanco{
+      font-size: 20px;
+    }
+ }

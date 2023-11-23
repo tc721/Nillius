@@ -1,0 +1,9 @@
+.Menu-box{
+    padding-top: 60px;
+    width:450px;
+    height: 600px;
+    background-color: brown;
+    position: fixed;
+    z-index: 90;
+    
+}

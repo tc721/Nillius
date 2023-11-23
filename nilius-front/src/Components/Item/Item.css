@@ -1,0 +1,173 @@
+.item-build-container{
+    width: 80%;
+    padding-top: 120px;
+    margin: 0 auto; /* Para centrar horizontalmente */
+    text-align: center; /* Opcional, para centrar el contenido dentro del div */
+}
+
+.build-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: #fff;
+    border-radius: 20px;
+    min-width: 800px;
+}
+
+
+
+
+
+.item{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    width: 100%;
+    height: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.item-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.item-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: .5s;
+
+}
+
+
+.sub-img-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sub-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.sub-item-img{
+    width: 100%;
+    height: auto; 
+}
+
+.selected{
+    border: 1px solid #27252e;
+}
+
+
+
+
+
+.menu-item{
+    background-color: rgb(247, 250, 250);
+    min-width: 330px;
+    border-radius: 0 20px 20px 0;
+    border: #fff 8px solid ;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    gap: 20px;
+
+}
+
+
+.description-item{
+    font-size: 22px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.item-price{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+}
+
+
+.new-price{
+    font-size: 30px;
+    color: #c22;
+    font-weight: bold;
+}
+.old-price{
+    font-size: 20px;
+    color: rgba(85, 85, 85, 0.5);
+}
+
+.item-description{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6;
+}
+
+
+.buttons-item{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    min-width: 330px;
+
+}
+
+ .comprar{
+    font-size: 25px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 27px;
+    height: 55px;
+    color: #fff;
+    padding-bottom: 8px;
+    border: none;
+    background-color: #17151e;
+    cursor: pointer;
+ }
+
+.comprar:active{
+    background-color: #27252e;
+}
+
+ #carrito{
+    font-size: 30px;
+ }
+
+
+
+
+ @media only screen  and (max-width: 812px) {
+    .item-build-container{
+        width: 100%;
+        padding-top: 120px;
+        margin: 0 auto; /* Para centrar horizontalmente */
+        text-align: center; /* Opcional, para centrar el contenido dentro del div */
+    }
+ }
