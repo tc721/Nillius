@@ -6,6 +6,7 @@ import Item from "./Components/Item/Item.jsx";
 import LogIn from "./Components/LogIn/LogIn.jsx";
 import SignUp from "./Components/SignUp/SignUp.jsx";
 import Payed from "./Components/AfterPay/Payed.jsx";
+import Prueba from "./Components/Prueba/Prueba.jsx"
 //import AllProducts from "./Components/All/AllProducts.jsx"
 import "./App.css";
 import React, { useContext, useState, useEffect } from 'react';
@@ -32,6 +33,7 @@ const App = () => {
       <Routes>
 
         <Route path="/Payed" element={<Payed/>}/>
+        <Route path="/Prueba" element={<Prueba/>}/>
 
         <Route path="/SignUp" element={<SignUp/>}/>
         <Route path="/LogIn" element={<LogIn/>}/>

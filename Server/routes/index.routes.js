@@ -12,6 +12,9 @@ router.get("/ping", async (req, res) => {
     console.error(error);
     res.status(500).json({ message: "Internal server error" });
   }
+
+ /* const result = await pool.query('SELECT NOW()')
+  console.log(result)*/
 });
 
 export default router;
